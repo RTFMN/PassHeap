@@ -1,0 +1,9 @@
+excluded:
+- Carthage
+- Pods
+- SwiftLint/Common/3rdPartyLib
+disabled_rules:
+- unused_optional_binding
+- line_length
+cyclomatic_complexity:
+  ignores_case_statements: true
